@@ -33,3 +33,4 @@ for (let i = 0; i < users.length; i++) {
 console.log("Number of Users: " + userCount);
 console.log("Number of Admins: " + adminCount);
 
+
