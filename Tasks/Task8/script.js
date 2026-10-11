@@ -1,6 +1,3 @@
-
-// Task 4 : Array of Objects
-
 let posts = [
   {
     id: 1,
@@ -26,11 +23,10 @@ let posts = [
   },
 ];
 
-for (let i = 0; i < posts.length; i++) {
-  if (!posts[i].image) {
-    posts[i].image = "default image";
+posts.forEach((post) => {
+  if (!post.image) {
+    post.image = "default image";
   }
 
-  console.log(posts[i]);
-}
-
+  console.log(post);
+});

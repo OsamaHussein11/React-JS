@@ -1,5 +1,5 @@
 
-// Task 5 : Factorial of a Number
+
 
 let number;
 

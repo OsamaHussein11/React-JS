@@ -1,6 +1,3 @@
-
-// Task 2: Array of Objects
-
 let users = [
   { name: "OsamaHussein", email: "osama@gmail.com", type: "admin" },
   { name: "MohammedNaji", email: "mohammed@gmail.com", type: "admin" },
@@ -16,21 +13,19 @@ let users = [
   { name: "Lina", email: "lina@gmail.com", type: "admin" },
   { name: "Sami", email: "sami@gmail.com", type: "user" },
   { name: "Rana", email: "rana@gmail.com", type: "user" },
-  { name: "Hassan", email: "hassan@gmail.com", type: "user" }
+  { name: "Hassan", email: "hassan@gmail.com", type: "user" },
 ];
 
 let userCount = 0;
 let adminCount = 0;
 
-for (let i = 0; i < users.length; i++) {
-  if (users[i].type === "admin") {
+users.forEach(function (user) {
+  if (user.type === "admin") {
     adminCount++;
-  } else if (users[i].type === "user") {
+  } else {
     userCount++;
   }
-}
+});
 
 console.log("Number of Users: " + userCount);
 console.log("Number of Admins: " + adminCount);
-
-
