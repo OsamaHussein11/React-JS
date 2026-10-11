@@ -5,5 +5,5 @@ let meals = [
   { name: "Fries", price: 10 },
   { name: "Salad", price: 12 }
 ];
-//noooooooooooooooo more 
+//noooooooooooooooo more code
 

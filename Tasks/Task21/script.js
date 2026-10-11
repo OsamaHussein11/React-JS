@@ -1,4 +1,4 @@
-// Finally!! its a logical Task :)
+// واخيرا تاسك منطقي  :)
 
 
 // The answer using Built-in Functions Or Built-in String Methods،
